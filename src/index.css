@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import url('https://googleapis.com');
+
+/* :root {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+} */
+
+
+
+body {
+  margin: 0;
+  background: #f8fafc; /* slate-50 */
+  color: #0f172a;      /* slate-900 */
+}
+
+/* tabular figures so numbers line up in the metrics */
+.tnum { font-variant-numeric: tabular-nums; }
