@@ -45,14 +45,14 @@ export default function App() {
           <TopIncorrect data={data} />
         </section>
 
-        {/* <section>
+        <section>
           <SectionHeader
-            n={2}
+            n={3}
             title="Card sort replay"
             subtitle="The activity as students saw it, with a heatmap of where cards actually landed"
           />
           <Replay data={data} />
-        </section> */}
+        </section>
 
         {/* <section>
           <SectionHeader
