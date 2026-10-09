@@ -1,1430 +1,1658 @@
 {
-  "teachers": [
-    {
-      "id": "Fitzpatrick",
-      "name": "Fitzpatrick",
-      "n_students": 226,
-      "sections": [
-        {
-          "slug": "limit-intro",
-          "title": "An Introduction to Limits",
-          "questions": [
-            {
-              "id": "limit-intro-3-v1",
-              "title": "Limit Intro 3 V1",
-              "attempted": 189,
-              "completed": 163,
-              "class_size": 226,
-              "completion_pct": 72.0,
-              "avg_time_s": 932.0,
-              "correct_pct": 86.2
-            },
-            {
-              "id": "limit-intro-3-v2",
-              "title": "Limit Intro 3 V2",
-              "attempted": 115,
-              "completed": 87,
-              "class_size": 226,
-              "completion_pct": 38.0,
-              "avg_time_s": 607.0,
-              "correct_pct": 75.7
-            }
-          ]
-        },
-        {
-          "slug": "antider",
-          "title": "Antider",
-          "questions": [
-            {
-              "id": "antider-2-v1",
-              "title": "Antider 2 V1",
-              "attempted": 160,
-              "completed": 160,
-              "class_size": 226,
-              "completion_pct": 71.0,
-              "avg_time_s": 122.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-concav",
-          "title": "Concavity & Inflection",
-          "questions": [
-            {
-              "id": "graph-concav-1-v1",
-              "title": "Graph Concav 1 V1",
-              "attempted": 167,
-              "completed": 164,
-              "class_size": 226,
-              "completion_pct": 73.0,
-              "avg_time_s": 240.0,
-              "correct_pct": 98.2
-            }
-          ]
-        },
-        {
-          "slug": "limit-continuity",
-          "title": "Continuity",
-          "questions": [
-            {
-              "id": "limit-continuity-4-v1",
-              "title": "Limit Continuity 4 V1",
-              "attempted": 179,
-              "completed": 165,
-              "class_size": 226,
-              "completion_pct": 73.0,
-              "avg_time_s": 377.0,
-              "correct_pct": 92.2
-            }
-          ]
-        },
-        {
-          "slug": "graph-sketch",
-          "title": "Curve Sketching",
-          "questions": [
-            {
-              "id": "graph-sketch-1-v1",
-              "title": "Graph Sketch 1 V1",
-              "attempted": 164,
-              "completed": 160,
-              "class_size": 226,
-              "completion_pct": 71.0,
-              "avg_time_s": 344.0,
-              "correct_pct": 97.6
-            }
-          ]
-        },
-        {
-          "slug": "deriv-inverse",
-          "title": "Derivatives of Inverse Functions",
-          "questions": [
-            {
-              "id": "deriv-inverse-1-v1",
-              "title": "Deriv Inverse 1 V1",
-              "attempted": 155,
-              "completed": 152,
-              "class_size": 226,
-              "completion_pct": 67.0,
-              "avg_time_s": 189.0,
-              "correct_pct": 98.1
-            }
-          ]
-        },
-        {
-          "slug": "differentials",
-          "title": "Differentials",
-          "questions": [
-            {
-              "id": "differentials-4-v1",
-              "title": "Differentials 4 V1",
-              "attempted": 34,
-              "completed": 32,
-              "class_size": 226,
-              "completion_pct": 14.0,
-              "avg_time_s": 43.0,
-              "correct_pct": 94.1
-            }
-          ]
-        },
-        {
-          "slug": "limit-analytic",
-          "title": "Finding Limits Analytically",
-          "questions": [
-            {
-              "id": "limit-analytic-3-v1",
-              "title": "Limit Analytic 3 V1",
-              "attempted": 195,
-              "completed": 191,
-              "class_size": 226,
-              "completion_pct": 85.0,
-              "avg_time_s": 344.0,
-              "correct_pct": 97.9
-            },
-            {
-              "id": "limit-analytic-5-v1",
-              "title": "Limit Analytic 5 V1",
-              "attempted": 192,
-              "completed": 183,
-              "class_size": 226,
-              "completion_pct": 81.0,
-              "avg_time_s": 341.0,
-              "correct_pct": 95.3
-            }
-          ]
-        },
-        {
-          "slug": "deriv-implicit",
-          "title": "Implicit Differentiation",
-          "questions": [
-            {
-              "id": "deriv-implicit-2-v1",
-              "title": "Deriv Implicit 2 V1",
-              "attempted": 177,
-              "completed": 168,
-              "class_size": 226,
-              "completion_pct": 74.0,
-              "avg_time_s": 312.0,
-              "correct_pct": 94.9
-            }
-          ]
-        },
-        {
-          "slug": "graph-incdec",
-          "title": "Increasing & Decreasing Functions",
-          "questions": [
-            {
-              "id": "graph-incdec-1-v1",
-              "title": "Graph Incdec 1 V1",
-              "attempted": 172,
-              "completed": 169,
-              "class_size": 226,
-              "completion_pct": 75.0,
-              "avg_time_s": 371.0,
-              "correct_pct": 98.3
-            }
-          ]
-        },
-        {
-          "slug": "substitution",
-          "title": "Integration by Substitution",
-          "questions": [
-            {
-              "id": "substitution-2-v1",
-              "title": "Substitution 2 V1",
-              "attempted": 31,
-              "completed": 29,
-              "class_size": 226,
-              "completion_pct": 13.0,
-              "avg_time_s": 40.0,
-              "correct_pct": 93.5
-            }
-          ]
-        },
-        {
-          "slug": "limit-infinite",
-          "title": "Limits Involving Infinity",
-          "questions": [
-            {
-              "id": "limit-infinite-2-v1",
-              "title": "Limit Infinite 2 V1",
-              "attempted": 182,
-              "completed": 177,
-              "class_size": 226,
-              "completion_pct": 78.0,
-              "avg_time_s": 465.0,
-              "correct_pct": 97.3
-            },
-            {
-              "id": "limit-infinite-2-v2",
-              "title": "Limit Infinite 2 V2",
-              "attempted": 26,
-              "completed": 18,
-              "class_size": 226,
-              "completion_pct": 8.0,
-              "avg_time_s": 613.0,
-              "correct_pct": 69.2
-            }
-          ]
-        },
-        {
-          "slug": "newton",
-          "title": "Newton",
-          "questions": [
-            {
-              "id": "newton-1-v1",
-              "title": "Newton 1 V1",
-              "attempted": 1,
-              "completed": 0,
-              "class_size": 226,
-              "completion_pct": 0.0,
-              "avg_time_s": 0,
-              "correct_pct": 0.0
-            }
-          ]
-        },
-        {
-          "slug": "optimization",
-          "title": "Optimization",
-          "questions": [
-            {
-              "id": "optimization-1-v1",
-              "title": "Optimization 1 V1",
-              "attempted": 168,
-              "completed": 162,
-              "class_size": 226,
-              "completion_pct": 72.0,
-              "avg_time_s": 134.0,
-              "correct_pct": 96.4
-            }
-          ]
-        },
-        {
-          "slug": "deriv-prodquot",
-          "title": "Product & Quotient Rules",
-          "questions": [
-            {
-              "id": "deriv-prodquot-1-v1",
-              "title": "Deriv Prodquot 1 V1",
-              "attempted": 166,
-              "completed": 157,
-              "class_size": 226,
-              "completion_pct": 69.0,
-              "avg_time_s": 415.0,
-              "correct_pct": 94.6
-            }
-          ]
-        },
-        {
-          "slug": "related-rates",
-          "title": "Related Rates",
-          "questions": [
-            {
-              "id": "related-rates-1-v2",
-              "title": "Related Rates 1 V2",
-              "attempted": 167,
-              "completed": 165,
-              "class_size": 226,
-              "completion_pct": 73.0,
-              "avg_time_s": 267.0,
-              "correct_pct": 98.8
-            },
-            {
-              "id": "related-rates-2-v1",
-              "title": "Related Rates 2 V1",
-              "attempted": 164,
-              "completed": 162,
-              "class_size": 226,
-              "completion_pct": 72.0,
-              "avg_time_s": 261.0,
-              "correct_pct": 98.8
-            }
-          ]
-        },
-        {
-          "slug": "riemann",
-          "title": "Riemann Sums",
-          "questions": [
-            {
-              "id": "riemann-1-v1",
-              "title": "Riemann 1 V1",
-              "attempted": 153,
-              "completed": 149,
-              "class_size": 226,
-              "completion_pct": 66.0,
-              "avg_time_s": 238.0,
-              "correct_pct": 97.4
-            }
-          ]
-        },
-        {
-          "slug": "taylor-poly",
-          "title": "Taylor Polynomials",
-          "questions": [
-            {
-              "id": "taylor-poly-1-v1",
-              "title": "Taylor Poly 1 V1",
-              "attempted": 155,
-              "completed": 152,
-              "class_size": 226,
-              "completion_pct": 67.0,
-              "avg_time_s": 210.0,
-              "correct_pct": 98.1
-            }
-          ]
-        },
-        {
-          "slug": "deriv-chainrule",
-          "title": "The Chain Rule",
-          "questions": [
-            {
-              "id": "deriv-chainrule-4-v2",
-              "title": "Deriv Chainrule 4 V2",
-              "attempted": 159,
-              "completed": 153,
-              "class_size": 226,
-              "completion_pct": 68.0,
-              "avg_time_s": 431.0,
-              "correct_pct": 96.2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Gordon_JSenning",
-      "name": "Gordon JSenning",
-      "n_students": 19,
-      "sections": [
-        {
-          "slug": "limit-intro",
-          "title": "An Introduction to Limits",
-          "questions": [
-            {
-              "id": "limit-intro-3-v1",
-              "title": "Limit Intro 3 V1",
-              "attempted": 19,
-              "completed": 15,
-              "class_size": 19,
-              "completion_pct": 79.0,
-              "avg_time_s": 880.0,
-              "correct_pct": 78.9
-            }
-          ]
-        },
-        {
-          "slug": "antider",
-          "title": "Antider",
-          "questions": [
-            {
-              "id": "antider-2-v1",
-              "title": "Antider 2 V1",
-              "attempted": 1,
-              "completed": 1,
-              "class_size": 19,
-              "completion_pct": 5.0,
-              "avg_time_s": 0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-concav",
-          "title": "Concavity & Inflection",
-          "questions": [
-            {
-              "id": "graph-concav-1-v1",
-              "title": "Graph Concav 1 V1",
-              "attempted": 15,
-              "completed": 15,
-              "class_size": 19,
-              "completion_pct": 79.0,
-              "avg_time_s": 160.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "limit-continuity",
-          "title": "Continuity",
-          "questions": [
-            {
-              "id": "limit-continuity-4-v1",
-              "title": "Limit Continuity 4 V1",
-              "attempted": 18,
-              "completed": 18,
-              "class_size": 19,
-              "completion_pct": 95.0,
-              "avg_time_s": 163.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-sketch",
-          "title": "Curve Sketching",
-          "questions": [
-            {
-              "id": "graph-sketch-1-v1",
-              "title": "Graph Sketch 1 V1",
-              "attempted": 16,
-              "completed": 16,
-              "class_size": 19,
-              "completion_pct": 84.0,
-              "avg_time_s": 366.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-inverse",
-          "title": "Derivatives of Inverse Functions",
-          "questions": [
-            {
-              "id": "deriv-inverse-1-v1",
-              "title": "Deriv Inverse 1 V1",
-              "attempted": 16,
-              "completed": 16,
-              "class_size": 19,
-              "completion_pct": 84.0,
-              "avg_time_s": 40.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "differentials",
-          "title": "Differentials",
-          "questions": [
-            {
-              "id": "differentials-4-v1",
-              "title": "Differentials 4 V1",
-              "attempted": 2,
-              "completed": 2,
-              "class_size": 19,
-              "completion_pct": 11.0,
-              "avg_time_s": 17.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "limit-analytic",
-          "title": "Finding Limits Analytically",
-          "questions": [
-            {
-              "id": "limit-analytic-3-v1",
-              "title": "Limit Analytic 3 V1",
-              "attempted": 17,
-              "completed": 17,
-              "class_size": 19,
-              "completion_pct": 89.0,
-              "avg_time_s": 197.0,
-              "correct_pct": 100.0
-            },
-            {
-              "id": "limit-analytic-5-v1",
-              "title": "Limit Analytic 5 V1",
-              "attempted": 17,
-              "completed": 17,
-              "class_size": 19,
-              "completion_pct": 89.0,
-              "avg_time_s": 186.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-implicit",
-          "title": "Implicit Differentiation",
-          "questions": [
-            {
-              "id": "deriv-implicit-2-v1",
-              "title": "Deriv Implicit 2 V1",
-              "attempted": 17,
-              "completed": 16,
-              "class_size": 19,
-              "completion_pct": 84.0,
-              "avg_time_s": 294.0,
-              "correct_pct": 94.1
-            }
-          ]
-        },
-        {
-          "slug": "graph-incdec",
-          "title": "Increasing & Decreasing Functions",
-          "questions": [
-            {
-              "id": "graph-incdec-1-v1",
-              "title": "Graph Incdec 1 V1",
-              "attempted": 15,
-              "completed": 15,
-              "class_size": 19,
-              "completion_pct": 79.0,
-              "avg_time_s": 240.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "substitution",
-          "title": "Integration by Substitution",
-          "questions": [
-            {
-              "id": "substitution-2-v1",
-              "title": "Substitution 2 V1",
-              "attempted": 2,
-              "completed": 2,
-              "class_size": 19,
-              "completion_pct": 11.0,
-              "avg_time_s": 43.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "limit-infinite",
-          "title": "Limits Involving Infinity",
-          "questions": [
-            {
-              "id": "limit-infinite-2-v1",
-              "title": "Limit Infinite 2 V1",
-              "attempted": 17,
-              "completed": 17,
-              "class_size": 19,
-              "completion_pct": 89.0,
-              "avg_time_s": 289.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graphical-numerical",
-          "title": "Limits: Graphical & Numerical",
-          "questions": [
-            {
-              "id": "graphical-numerical-1-v1",
-              "title": "Graphical Numerical 1 V1",
-              "attempted": 11,
-              "completed": 11,
-              "class_size": 19,
-              "completion_pct": 58.0,
-              "avg_time_s": 247.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "optimization",
-          "title": "Optimization",
-          "questions": [
-            {
-              "id": "optimization-1-v1",
-              "title": "Optimization 1 V1",
-              "attempted": 15,
-              "completed": 15,
-              "class_size": 19,
-              "completion_pct": 79.0,
-              "avg_time_s": 68.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-prodquot",
-          "title": "Product & Quotient Rules",
-          "questions": [
-            {
-              "id": "deriv-prodquot-1-v1",
-              "title": "Deriv Prodquot 1 V1",
-              "attempted": 15,
-              "completed": 15,
-              "class_size": 19,
-              "completion_pct": 79.0,
-              "avg_time_s": 333.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "related-rates",
-          "title": "Related Rates",
-          "questions": [
-            {
-              "id": "related-rates-1-v2",
-              "title": "Related Rates 1 V2",
-              "attempted": 5,
-              "completed": 5,
-              "class_size": 19,
-              "completion_pct": 26.0,
-              "avg_time_s": 142.0,
-              "correct_pct": 100.0
-            },
-            {
-              "id": "related-rates-2-v1",
-              "title": "Related Rates 2 V1",
-              "attempted": 15,
-              "completed": 14,
-              "class_size": 19,
-              "completion_pct": 74.0,
-              "avg_time_s": 410.0,
-              "correct_pct": 93.3
-            }
-          ]
-        },
-        {
-          "slug": "riemann",
-          "title": "Riemann Sums",
-          "questions": [
-            {
-              "id": "riemann-1-v1",
-              "title": "Riemann 1 V1",
-              "attempted": 13,
-              "completed": 13,
-              "class_size": 19,
-              "completion_pct": 68.0,
-              "avg_time_s": 80.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-chainrule",
-          "title": "The Chain Rule",
-          "questions": [
-            {
-              "id": "deriv-chainrule-4-v2",
-              "title": "Deriv Chainrule 4 V2",
-              "attempted": 16,
-              "completed": 16,
-              "class_size": 19,
-              "completion_pct": 84.0,
-              "avg_time_s": 131.0,
-              "correct_pct": 100.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Moravian_MFraboni",
-      "name": "Moravian MFraboni",
-      "n_students": 28,
-      "sections": [
-        {
-          "slug": "limit-intro",
-          "title": "An Introduction to Limits",
-          "questions": [
-            {
-              "id": "limit-intro-3-v2",
-              "title": "Limit Intro 3 V2",
-              "attempted": 21,
-              "completed": 15,
-              "class_size": 28,
-              "completion_pct": 54.0,
-              "avg_time_s": 558.0,
-              "correct_pct": 71.4
-            }
-          ]
-        },
-        {
-          "slug": "antider",
-          "title": "Antider",
-          "questions": [
-            {
-              "id": "antider-2-v1",
-              "title": "Antider 2 V1",
-              "attempted": 10,
-              "completed": 8,
-              "class_size": 28,
-              "completion_pct": 29.0,
-              "avg_time_s": 53.0,
-              "correct_pct": 80.0
-            }
-          ]
-        },
-        {
-          "slug": "concavity",
-          "title": "Concavity",
-          "questions": [
-            {
-              "id": "concavity-2-v1",
-              "title": "Concavity 2 V1",
-              "attempted": 14,
-              "completed": 14,
-              "class_size": 28,
-              "completion_pct": 50.0,
-              "avg_time_s": 14.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-concav",
-          "title": "Concavity & Inflection",
-          "questions": [
-            {
-              "id": "graph-concav-1-v1",
-              "title": "Graph Concav 1 V1",
-              "attempted": 14,
-              "completed": 14,
-              "class_size": 28,
-              "completion_pct": 50.0,
-              "avg_time_s": 40.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "limit-continuity",
-          "title": "Continuity",
-          "questions": [
-            {
-              "id": "limit-continuity-4-v1",
-              "title": "Limit Continuity 4 V1",
-              "attempted": 20,
-              "completed": 16,
-              "class_size": 28,
-              "completion_pct": 57.0,
-              "avg_time_s": 155.0,
-              "correct_pct": 80.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-sketch",
-          "title": "Curve Sketching",
-          "questions": [
-            {
-              "id": "graph-sketch-1-v1",
-              "title": "Graph Sketch 1 V1",
-              "attempted": 14,
-              "completed": 13,
-              "class_size": 28,
-              "completion_pct": 46.0,
-              "avg_time_s": 88.0,
-              "correct_pct": 92.9
-            }
-          ]
-        },
-        {
-          "slug": "deriv-inverse",
-          "title": "Derivatives of Inverse Functions",
-          "questions": [
-            {
-              "id": "deriv-inverse-1-v1",
-              "title": "Deriv Inverse 1 V1",
-              "attempted": 19,
-              "completed": 19,
-              "class_size": 28,
-              "completion_pct": 68.0,
-              "avg_time_s": 89.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "limit-analytic",
-          "title": "Finding Limits Analytically",
-          "questions": [
-            {
-              "id": "limit-analytic-3-v1",
-              "title": "Limit Analytic 3 V1",
-              "attempted": 20,
-              "completed": 18,
-              "class_size": 28,
-              "completion_pct": 64.0,
-              "avg_time_s": 200.0,
-              "correct_pct": 90.0
-            },
-            {
-              "id": "limit-analytic-5-v1",
-              "title": "Limit Analytic 5 V1",
-              "attempted": 21,
-              "completed": 20,
-              "class_size": 28,
-              "completion_pct": 71.0,
-              "avg_time_s": 144.0,
-              "correct_pct": 95.2
-            }
-          ]
-        },
-        {
-          "slug": "deriv-implicit",
-          "title": "Implicit Differentiation",
-          "questions": [
-            {
-              "id": "deriv-implicit-2-v1",
-              "title": "Deriv Implicit 2 V1",
-              "attempted": 15,
-              "completed": 14,
-              "class_size": 28,
-              "completion_pct": 50.0,
-              "avg_time_s": 77.0,
-              "correct_pct": 93.3
-            }
-          ]
-        },
-        {
-          "slug": "graph-incdec",
-          "title": "Increasing & Decreasing Functions",
-          "questions": [
-            {
-              "id": "graph-incdec-1-v1",
-              "title": "Graph Incdec 1 V1",
-              "attempted": 13,
-              "completed": 12,
-              "class_size": 28,
-              "completion_pct": 43.0,
-              "avg_time_s": 23.0,
-              "correct_pct": 92.3
-            }
-          ]
-        },
-        {
-          "slug": "limit-infinite",
-          "title": "Limits Involving Infinity",
-          "questions": [
-            {
-              "id": "limit-infinite-2-v2",
-              "title": "Limit Infinite 2 V2",
-              "attempted": 21,
-              "completed": 20,
-              "class_size": 28,
-              "completion_pct": 71.0,
-              "avg_time_s": 101.0,
-              "correct_pct": 95.2
-            }
-          ]
-        },
-        {
-          "slug": "optimization",
-          "title": "Optimization",
-          "questions": [
-            {
-              "id": "optimization-1-v1",
-              "title": "Optimization 1 V1",
-              "attempted": 14,
-              "completed": 14,
-              "class_size": 28,
-              "completion_pct": 50.0,
-              "avg_time_s": 117.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-prodquot",
-          "title": "Product & Quotient Rules",
-          "questions": [
-            {
-              "id": "deriv-prodquot-1-v1",
-              "title": "Deriv Prodquot 1 V1",
-              "attempted": 19,
-              "completed": 18,
-              "class_size": 28,
-              "completion_pct": 64.0,
-              "avg_time_s": 199.0,
-              "correct_pct": 94.7
-            }
-          ]
-        },
-        {
-          "slug": "related-rates",
-          "title": "Related Rates",
-          "questions": [
-            {
-              "id": "related-rates-1-v2",
-              "title": "Related Rates 1 V2",
-              "attempted": 15,
-              "completed": 15,
-              "class_size": 28,
-              "completion_pct": 54.0,
-              "avg_time_s": 73.0,
-              "correct_pct": 100.0
-            },
-            {
-              "id": "related-rates-2-v1",
-              "title": "Related Rates 2 V1",
-              "attempted": 15,
-              "completed": 14,
-              "class_size": 28,
-              "completion_pct": 50.0,
-              "avg_time_s": 79.0,
-              "correct_pct": 93.3
-            }
-          ]
-        },
-        {
-          "slug": "riemann",
-          "title": "Riemann Sums",
-          "questions": [
-            {
-              "id": "riemann-1-v1",
-              "title": "Riemann 1 V1",
-              "attempted": 12,
-              "completed": 11,
-              "class_size": 28,
-              "completion_pct": 39.0,
-              "avg_time_s": 56.0,
-              "correct_pct": 91.7
-            }
-          ]
-        },
-        {
-          "slug": "deriv-chainrule",
-          "title": "The Chain Rule",
-          "questions": [
-            {
-              "id": "deriv-chainrule-4-v2",
-              "title": "Deriv Chainrule 4 V2",
-              "attempted": 13,
-              "completed": 12,
-              "class_size": 28,
-              "completion_pct": 43.0,
-              "avg_time_s": 76.0,
-              "correct_pct": 92.3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Nazareth_MKoetz",
-      "name": "Nazareth MKoetz",
-      "n_students": 42,
-      "sections": [
-        {
-          "slug": "limit-intro",
-          "title": "An Introduction to Limits",
-          "questions": [
-            {
-              "id": "limit-intro-3-v2",
-              "title": "Limit Intro 3 V2",
-              "attempted": 5,
-              "completed": 4,
-              "class_size": 42,
-              "completion_pct": 10.0,
-              "avg_time_s": 619.0,
-              "correct_pct": 80.0
-            }
-          ]
-        },
-        {
-          "slug": "antider",
-          "title": "Antider",
-          "questions": [
-            {
-              "id": "antider-2-v1",
-              "title": "Antider 2 V1",
-              "attempted": 3,
-              "completed": 3,
-              "class_size": 42,
-              "completion_pct": 7.0,
-              "avg_time_s": 0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-concav",
-          "title": "Concavity & Inflection",
-          "questions": [
-            {
-              "id": "graph-concav-1-v1",
-              "title": "Graph Concav 1 V1",
-              "attempted": 1,
-              "completed": 0,
-              "class_size": 42,
-              "completion_pct": 0.0,
-              "avg_time_s": 65.0,
-              "correct_pct": 0.0
-            }
-          ]
-        },
-        {
-          "slug": "graph-incdec",
-          "title": "Increasing & Decreasing Functions",
-          "questions": [
-            {
-              "id": "graph-incdec-1-v1",
-              "title": "Graph Incdec 1 V1",
-              "attempted": 1,
-              "completed": 0,
-              "class_size": 42,
-              "completion_pct": 0.0,
-              "avg_time_s": 0,
-              "correct_pct": 0.0
-            }
-          ]
-        },
-        {
-          "slug": "deriv-prodquot",
-          "title": "Product & Quotient Rules",
-          "questions": [
-            {
-              "id": "deriv-prodquot-1-v1",
-              "title": "Deriv Prodquot 1 V1",
-              "attempted": 1,
-              "completed": 1,
-              "class_size": 42,
-              "completion_pct": 2.0,
-              "avg_time_s": 17.0,
-              "correct_pct": 100.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "PalmBeach_AKatyal",
-      "name": "PalmBeach AKatyal",
-      "n_students": 18,
-      "sections": [
-        {
-          "slug": "APEXPROTEUS_5_APEX-PROTEUS-int-comp-test2-v1",
-          "title": "Apexproteus_5_Apex Proteus Int Comp Test2 V1",
-          "questions": [
-            {
-              "id": "int-comp-test2-v1",
-              "title": "Int Comp Test2 V1",
-              "attempted": 8,
-              "completed": 5,
-              "class_size": 18,
-              "completion_pct": 28.0,
-              "avg_time_s": 56.0,
-              "correct_pct": 62.5
-            }
-          ]
-        },
-        {
-          "slug": "int-comp-test",
-          "title": "Comparison Tests",
-          "questions": [
-            {
-              "id": "int-comp-test-3-v1",
-              "title": "Int Comp Test 3 V1",
-              "attempted": 6,
-              "completed": 5,
-              "class_size": 18,
-              "completion_pct": 28.0,
-              "avg_time_s": 62.0,
-              "correct_pct": 83.3
-            }
-          ]
-        },
-        {
-          "slug": "improper-int",
-          "title": "Improper Integration",
-          "questions": [
-            {
-              "id": "improper-int-2-v1",
-              "title": "Improper Int 2 V1",
-              "attempted": 8,
-              "completed": 7,
-              "class_size": 18,
-              "completion_pct": 39.0,
-              "avg_time_s": 27.0,
-              "correct_pct": 87.5
-            }
-          ]
-        },
-        {
-          "slug": "int-by-parts",
-          "title": "Integration by Parts",
-          "questions": [
-            {
-              "id": "int-by-parts-2-v1",
-              "title": "Int By Parts 2 V1",
-              "attempted": 13,
-              "completed": 9,
-              "class_size": 18,
-              "completion_pct": 50.0,
-              "avg_time_s": 478.0,
-              "correct_pct": 69.2
-            }
-          ]
-        },
-        {
-          "slug": "substitution",
-          "title": "Integration by Substitution",
-          "questions": [
-            {
-              "id": "substitution-2-v1",
-              "title": "Substitution 2 V1",
-              "attempted": 2,
-              "completed": 2,
-              "class_size": 18,
-              "completion_pct": 11.0,
-              "avg_time_s": 116.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "part-frac",
-          "title": "Partial Fractions",
-          "questions": [
-            {
-              "id": "part-frac-2-v1",
-              "title": "Part Frac 2 V1",
-              "attempted": 10,
-              "completed": 9,
-              "class_size": 18,
-              "completion_pct": 50.0,
-              "avg_time_s": 33.0,
-              "correct_pct": 90.0
-            }
-          ]
-        },
-        {
-          "slug": "ratio-root",
-          "title": "Ratio & Root Tests",
-          "questions": [
-            {
-              "id": "ratio-root-1-v1",
-              "title": "Ratio Root 1 V1",
-              "attempted": 6,
-              "completed": 5,
-              "class_size": 18,
-              "completion_pct": 28.0,
-              "avg_time_s": 47.0,
-              "correct_pct": 83.3
-            },
-            {
-              "id": "ratio-root-2-v1",
-              "title": "Ratio Root 2 V1",
-              "attempted": 6,
-              "completed": 5,
-              "class_size": 18,
-              "completion_pct": 28.0,
-              "avg_time_s": 21.0,
-              "correct_pct": 83.3
-            }
-          ]
-        },
-        {
-          "slug": "sequences",
-          "title": "Sequences",
-          "questions": [
-            {
-              "id": "sequences-1-v1",
-              "title": "Sequences 1 V1",
-              "attempted": 7,
-              "completed": 6,
-              "class_size": 18,
-              "completion_pct": 33.0,
-              "avg_time_s": 15.0,
-              "correct_pct": 85.7
-            }
-          ]
-        },
-        {
-          "slug": "series",
-          "title": "Series",
-          "questions": [
-            {
-              "id": "series-3-v1",
-              "title": "Series 3 V1",
-              "attempted": 8,
-              "completed": 7,
-              "class_size": 18,
-              "completion_pct": 39.0,
-              "avg_time_s": 214.0,
-              "correct_pct": 87.5
-            }
-          ]
-        },
-        {
-          "slug": "taylor-poly",
-          "title": "Taylor Polynomials",
-          "questions": [
-            {
-              "id": "taylor-poly-1-v1",
-              "title": "Taylor Poly 1 V1",
-              "attempted": 7,
-              "completed": 3,
-              "class_size": 18,
-              "completion_pct": 17.0,
-              "avg_time_s": 363.0,
-              "correct_pct": 42.9
-            }
-          ]
-        },
-        {
-          "slug": "disk",
-          "title": "The Disk Method",
-          "questions": [
-            {
-              "id": "disk-4-v1",
-              "title": "Disk 4 V1",
-              "attempted": 3,
-              "completed": 1,
-              "class_size": 18,
-              "completion_pct": 6.0,
-              "avg_time_s": 99.0,
-              "correct_pct": 33.3
-            }
-          ]
-        },
-        {
-          "slug": "shell",
-          "title": "The Shell Method",
-          "questions": [
-            {
-              "id": "shell-2-v2",
-              "title": "Shell 2 V2",
-              "attempted": 2,
-              "completed": 1,
-              "class_size": 18,
-              "completion_pct": 6.0,
-              "avg_time_s": 0,
-              "correct_pct": 50.0
-            },
-            {
-              "id": "shell-3-v1",
-              "title": "Shell 3 V1",
-              "attempted": 2,
-              "completed": 1,
-              "class_size": 18,
-              "completion_pct": 6.0,
-              "avg_time_s": 0,
-              "correct_pct": 50.0
-            }
-          ]
-        },
-        {
-          "slug": "trigint",
-          "title": "Trigonometric Integrals",
-          "questions": [
-            {
-              "id": "trigint-2-v1",
-              "title": "Trigint 2 V1",
-              "attempted": 10,
-              "completed": 9,
-              "class_size": 18,
-              "completion_pct": 50.0,
-              "avg_time_s": 985.0,
-              "correct_pct": 90.0
-            }
-          ]
-        },
-        {
-          "slug": "trig-sub",
-          "title": "Trigonometric Substitution",
-          "questions": [
-            {
-              "id": "trig-sub-1-v1",
-              "title": "Trig Sub 1 V1",
-              "attempted": 11,
-              "completed": 8,
-              "class_size": 18,
-              "completion_pct": 44.0,
-              "avg_time_s": 34.0,
-              "correct_pct": 72.7
-            },
-            {
-              "id": "trig-sub-2-v1",
-              "title": "Trig Sub 2 V1",
-              "attempted": 10,
-              "completed": 9,
-              "class_size": 18,
-              "completion_pct": 50.0,
-              "avg_time_s": 153.0,
-              "correct_pct": 90.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "UMD_AWiggins",
-      "name": "UMD AWiggins",
-      "n_students": 27,
-      "sections": [
-        {
-          "slug": "int-comp-test",
-          "title": "Comparison Tests",
-          "questions": [
-            {
-              "id": "int-comp-test-3-v1",
-              "title": "Int Comp Test 3 V1",
-              "attempted": 1,
-              "completed": 0,
-              "class_size": 27,
-              "completion_pct": 0.0,
-              "avg_time_s": 0,
-              "correct_pct": 0.0
-            }
-          ]
-        },
-        {
-          "slug": "improper-int",
-          "title": "Improper Integration",
-          "questions": [
-            {
-              "id": "improper-int-2-v1",
-              "title": "Improper Int 2 V1",
-              "attempted": 18,
-              "completed": 17,
-              "class_size": 27,
-              "completion_pct": 63.0,
-              "avg_time_s": 78.0,
-              "correct_pct": 94.4
-            }
-          ]
-        },
-        {
-          "slug": "int-by-parts",
-          "title": "Integration by Parts",
-          "questions": [
-            {
-              "id": "int-by-parts-2-v1",
-              "title": "Int By Parts 2 V1",
-              "attempted": 13,
-              "completed": 13,
-              "class_size": 27,
-              "completion_pct": 48.0,
-              "avg_time_s": 60.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "part-frac",
-          "title": "Partial Fractions",
-          "questions": [
-            {
-              "id": "part-frac-2-v1",
-              "title": "Part Frac 2 V1",
-              "attempted": 12,
-              "completed": 12,
-              "class_size": 27,
-              "completion_pct": 44.0,
-              "avg_time_s": 76.0,
-              "correct_pct": 100.0
-            }
-          ]
-        },
-        {
-          "slug": "sequences",
-          "title": "Sequences",
-          "questions": [
-            {
-              "id": "sequences-1-v1",
-              "title": "Sequences 1 V1",
-              "attempted": 19,
-              "completed": 17,
-              "class_size": 27,
-              "completion_pct": 63.0,
-              "avg_time_s": 211.0,
-              "correct_pct": 89.5
-            }
-          ]
-        },
-        {
-          "slug": "series",
-          "title": "Series",
-          "questions": [
-            {
-              "id": "series-3-v1",
-              "title": "Series 3 V1",
-              "attempted": 15,
-              "completed": 12,
-              "class_size": 27,
-              "completion_pct": 44.0,
-              "avg_time_s": 212.0,
-              "correct_pct": 80.0
-            }
-          ]
-        },
-        {
-          "slug": "trig-sub",
-          "title": "Trigonometric Substitution",
-          "questions": [
-            {
-              "id": "trig-sub-1-v1",
-              "title": "Trig Sub 1 V1",
-              "attempted": 12,
-              "completed": 12,
-              "class_size": 27,
-              "completion_pct": 44.0,
-              "avg_time_s": 193.0,
-              "correct_pct": 100.0
-            },
-            {
-              "id": "trig-sub-2-v1",
-              "title": "Trig Sub 2 V1",
-              "attempted": 12,
-              "completed": 11,
-              "class_size": 27,
-              "completion_pct": 41.0,
-              "avg_time_s": 115.0,
-              "correct_pct": 91.7
-            }
-          ]
-        }
-      ]
-    }
+ "definitions": {
+  "moves_logged_from": "2025-10-14",
+  "idle_gap_s": 60,
+  "session_gap_s": 1800,
+  "decoy_high": 0.5,
+  "decoy_low": 0.1,
+  "notable_min": 0.25
+ },
+ "check_groups": {
+  "simple": [
+   {
+    "key": "1",
+    "label": "1"
+   },
+   {
+    "key": "2-3",
+    "label": "2–3"
+   },
+   {
+    "key": "4+",
+    "label": "4+"
+   }
+  ],
+  "detailed": [
+   {
+    "key": "1",
+    "label": "1"
+   },
+   {
+    "key": "2",
+    "label": "2"
+   },
+   {
+    "key": "3",
+    "label": "3"
+   },
+   {
+    "key": "4-5",
+    "label": "4–5"
+   },
+   {
+    "key": "6-10",
+    "label": "6–10"
+   },
+   {
+    "key": "11+",
+    "label": "11+"
+   }
   ]
+ },
+ "scopes": [
+  {
+   "id": "Fitzpatrick__F25",
+   "instructor": "Fitzpatrick",
+   "term": "Fall 2025",
+   "label": "Fitzpatrick — Fall 2025",
+   "class_size": 226
+  },
+  {
+   "id": "Gordon_JSenning__F25",
+   "instructor": "Gordon · JSenning",
+   "term": "Fall 2025",
+   "label": "Gordon · JSenning — Fall 2025",
+   "class_size": 19
+  },
+  {
+   "id": "Moravian_MFraboni__S26",
+   "instructor": "Moravian · MFraboni",
+   "term": "Spring 2026",
+   "label": "Moravian · MFraboni — Spring 2026",
+   "class_size": 28
+  },
+  {
+   "id": "Nazareth_MKoetz__S26",
+   "instructor": "Nazareth · MKoetz",
+   "term": "Spring 2026",
+   "label": "Nazareth · MKoetz — Spring 2026",
+   "class_size": 42
+  },
+  {
+   "id": "PalmBeach_AKatyal__S26",
+   "instructor": "PalmBeach · AKatyal",
+   "term": "Spring 2026",
+   "label": "PalmBeach · AKatyal — Spring 2026",
+   "class_size": 18
+  },
+  {
+   "id": "UMD_AWiggins__S26",
+   "instructor": "UMD · AWiggins",
+   "term": "Spring 2026",
+   "label": "UMD · AWiggins — Spring 2026",
+   "class_size": 27
+  },
+  {
+   "id": "all",
+   "instructor": "All classes",
+   "term": "Fall 2025 + Spring 2026",
+   "label": "All classes (pooled)",
+   "class_size": 360
+  }
+ ],
+ "sections": [
+  {
+   "slug": "limit-intro",
+   "title": "An Introduction to Limits",
+   "questions": [
+    {
+     "id": "limit-intro-3-v1",
+     "title": "Limit Intro 3 V1"
+    },
+    {
+     "id": "limit-intro-3-v2",
+     "title": "Limit Intro 3 V2"
+    }
+   ]
+  },
+  {
+   "slug": "limit-analytic",
+   "title": "Finding Limits Analytically",
+   "questions": [
+    {
+     "id": "limit-analytic-3-v1",
+     "title": "Limit Analytic 3 V1"
+    },
+    {
+     "id": "limit-analytic-5-v1",
+     "title": "Limit Analytic 5 V1"
+    }
+   ]
+  },
+  {
+   "slug": "limit-infinite",
+   "title": "Limits Involving Infinity",
+   "questions": [
+    {
+     "id": "limit-infinite-2-v1",
+     "title": "Limit Infinite 2 V1"
+    },
+    {
+     "id": "limit-infinite-2-v2",
+     "title": "Limit Infinite 2 V2"
+    }
+   ]
+  },
+  {
+   "slug": "limit-continuity",
+   "title": "Continuity",
+   "questions": [
+    {
+     "id": "limit-continuity-4-v1",
+     "title": "Limit Continuity 4 V1"
+    }
+   ]
+  },
+  {
+   "slug": "graphical-numerical",
+   "title": "Limits: Graphical & Numerical",
+   "questions": [
+    {
+     "id": "graphical-numerical-1-v1",
+     "title": "Graphical Numerical 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "deriv-prodquot",
+   "title": "Product & Quotient Rules",
+   "questions": [
+    {
+     "id": "deriv-prodquot-1-v1",
+     "title": "Deriv Prodquot 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "deriv-chainrule",
+   "title": "The Chain Rule",
+   "questions": [
+    {
+     "id": "deriv-chainrule-4-v2",
+     "title": "Deriv Chainrule 4 V2"
+    }
+   ]
+  },
+  {
+   "slug": "deriv-implicit",
+   "title": "Implicit Differentiation",
+   "questions": [
+    {
+     "id": "deriv-implicit-2-v1",
+     "title": "Deriv Implicit 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "deriv-inverse",
+   "title": "Derivatives of Inverse Functions",
+   "questions": [
+    {
+     "id": "deriv-inverse-1-v1",
+     "title": "Deriv Inverse 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "related-rates",
+   "title": "Related Rates",
+   "questions": [
+    {
+     "id": "related-rates-1-v2",
+     "title": "Related Rates 1 V2"
+    },
+    {
+     "id": "related-rates-2-v1",
+     "title": "Related Rates 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "differentials",
+   "title": "Differentials",
+   "questions": [
+    {
+     "id": "differentials-4-v1",
+     "title": "Differentials 4 V1"
+    }
+   ]
+  },
+  {
+   "slug": "graph-incdec",
+   "title": "Increasing & Decreasing Functions",
+   "questions": [
+    {
+     "id": "graph-incdec-1-v1",
+     "title": "Graph Incdec 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "graph-concav",
+   "title": "Concavity & Inflection",
+   "questions": [
+    {
+     "id": "graph-concav-1-v1",
+     "title": "Graph Concav 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "concavity",
+   "title": "Concavity",
+   "questions": [
+    {
+     "id": "concavity-2-v1",
+     "title": "Concavity 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "graph-sketch",
+   "title": "Curve Sketching",
+   "questions": [
+    {
+     "id": "graph-sketch-1-v1",
+     "title": "Graph Sketch 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "optimization",
+   "title": "Optimization",
+   "questions": [
+    {
+     "id": "optimization-1-v1",
+     "title": "Optimization 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "antider",
+   "title": "Antiderivatives & Indefinite Integration",
+   "questions": [
+    {
+     "id": "antider-2-v1",
+     "title": "Antider 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "riemann",
+   "title": "Riemann Sums",
+   "questions": [
+    {
+     "id": "riemann-1-v1",
+     "title": "Riemann 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "substitution",
+   "title": "Integration by Substitution",
+   "questions": [
+    {
+     "id": "substitution-2-v1",
+     "title": "Substitution 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "int-by-parts",
+   "title": "Integration by Parts",
+   "questions": [
+    {
+     "id": "int-by-parts-2-v1",
+     "title": "Int By Parts 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "trigint",
+   "title": "Trigonometric Integrals",
+   "questions": [
+    {
+     "id": "trigint-2-v1",
+     "title": "Trigint 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "trig-sub",
+   "title": "Trigonometric Substitution",
+   "questions": [
+    {
+     "id": "trig-sub-1-v1",
+     "title": "Trig Sub 1 V1"
+    },
+    {
+     "id": "trig-sub-2-v1",
+     "title": "Trig Sub 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "part-frac",
+   "title": "Partial Fractions",
+   "questions": [
+    {
+     "id": "part-frac-2-v1",
+     "title": "Part Frac 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "improper-int",
+   "title": "Improper Integration",
+   "questions": [
+    {
+     "id": "improper-int-2-v1",
+     "title": "Improper Int 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "disk",
+   "title": "The Disk Method",
+   "questions": [
+    {
+     "id": "disk-4-v1",
+     "title": "Disk 4 V1"
+    }
+   ]
+  },
+  {
+   "slug": "shell",
+   "title": "The Shell Method",
+   "questions": [
+    {
+     "id": "shell-2-v2",
+     "title": "Shell 2 V2"
+    },
+    {
+     "id": "shell-3-v1",
+     "title": "Shell 3 V1"
+    }
+   ]
+  },
+  {
+   "slug": "sequences",
+   "title": "Sequences",
+   "questions": [
+    {
+     "id": "sequences-1-v1",
+     "title": "Sequences 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "series",
+   "title": "Series",
+   "questions": [
+    {
+     "id": "series-3-v1",
+     "title": "Series 3 V1"
+    }
+   ]
+  },
+  {
+   "slug": "ratio-root",
+   "title": "Ratio & Root Tests",
+   "questions": [
+    {
+     "id": "ratio-root-1-v1",
+     "title": "Ratio Root 1 V1"
+    },
+    {
+     "id": "ratio-root-2-v1",
+     "title": "Ratio Root 2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "int-comp-test",
+   "title": "Comparison Tests",
+   "questions": [
+    {
+     "id": "int-comp-test-3-v1",
+     "title": "Int Comp Test 3 V1"
+    }
+   ]
+  },
+  {
+   "slug": "taylor-poly",
+   "title": "Taylor Polynomials",
+   "questions": [
+    {
+     "id": "taylor-poly-1-v1",
+     "title": "Taylor Poly 1 V1"
+    }
+   ]
+  },
+  {
+   "slug": "APEXPROTEUS_5_APEX-PROTEUS-int-comp-test2-v1",
+   "title": "Apexproteus_5_Apex Proteus Int Comp Test2 V1",
+   "questions": [
+    {
+     "id": "int-comp-test2-v1",
+     "title": "Int Comp Test2 V1"
+    }
+   ]
+  },
+  {
+   "slug": "newton",
+   "title": "Newton",
+   "questions": [
+    {
+     "id": "newton-1-v1",
+     "title": "Newton 1 V1"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "Fitzpatrick__F25": {
+   "antider-2-v1": {
+    "n_students": 160,
+    "attempted_pct": 71.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 28.8,
+    "avg_time_to_complete_s": 110.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "deriv-chainrule-4-v2": {
+    "n_students": 159,
+    "attempted_pct": 70.0,
+    "solved_pct": 96.2,
+    "first_check_pct": 8.8,
+    "avg_time_to_complete_s": 332.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-implicit-2-v1": {
+    "n_students": 177,
+    "attempted_pct": 78.0,
+    "solved_pct": 94.9,
+    "first_check_pct": 7.9,
+    "avg_time_to_complete_s": 206.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-inverse-1-v1": {
+    "n_students": 155,
+    "attempted_pct": 69.0,
+    "solved_pct": 98.1,
+    "first_check_pct": 11.0,
+    "avg_time_to_complete_s": 74.0,
+    "time_basis": "checks",
+    "n_notable": 3
+   },
+   "deriv-prodquot-1-v1": {
+    "n_students": 166,
+    "attempted_pct": 73.0,
+    "solved_pct": 94.6,
+    "first_check_pct": 7.2,
+    "avg_time_to_complete_s": 207.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "differentials-4-v1": {
+    "n_students": 34,
+    "attempted_pct": 15.0,
+    "solved_pct": 94.1,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 67.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "graph-concav-1-v1": {
+    "n_students": 167,
+    "attempted_pct": 74.0,
+    "solved_pct": 98.2,
+    "first_check_pct": 10.8,
+    "avg_time_to_complete_s": 172.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "graph-incdec-1-v1": {
+    "n_students": 172,
+    "attempted_pct": 76.0,
+    "solved_pct": 98.3,
+    "first_check_pct": 31.4,
+    "avg_time_to_complete_s": 165.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "graph-sketch-1-v1": {
+    "n_students": 164,
+    "attempted_pct": 73.0,
+    "solved_pct": 97.6,
+    "first_check_pct": 5.5,
+    "avg_time_to_complete_s": 330.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-analytic-3-v1": {
+    "n_students": 195,
+    "attempted_pct": 86.0,
+    "solved_pct": 97.9,
+    "first_check_pct": 16.9,
+    "avg_time_to_complete_s": 180.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-analytic-5-v1": {
+    "n_students": 192,
+    "attempted_pct": 85.0,
+    "solved_pct": 95.3,
+    "first_check_pct": 24.0,
+    "avg_time_to_complete_s": 132.0,
+    "time_basis": "checks",
+    "n_notable": 1
+   },
+   "limit-continuity-4-v1": {
+    "n_students": 179,
+    "attempted_pct": 79.0,
+    "solved_pct": 92.2,
+    "first_check_pct": 8.9,
+    "avg_time_to_complete_s": 252.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v1": {
+    "n_students": 182,
+    "attempted_pct": 81.0,
+    "solved_pct": 97.3,
+    "first_check_pct": 4.9,
+    "avg_time_to_complete_s": 311.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v2": {
+    "n_students": 26,
+    "attempted_pct": 12.0,
+    "solved_pct": 69.2,
+    "first_check_pct": 7.7,
+    "avg_time_to_complete_s": 395.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-intro-3-v1": {
+    "n_students": 189,
+    "attempted_pct": 84.0,
+    "solved_pct": 86.2,
+    "first_check_pct": 22.2,
+    "avg_time_to_complete_s": 445.0,
+    "time_basis": "checks",
+    "n_notable": 3
+   },
+   "limit-intro-3-v2": {
+    "n_students": 115,
+    "attempted_pct": 51.0,
+    "solved_pct": 75.7,
+    "first_check_pct": 7.0,
+    "avg_time_to_complete_s": 400.0,
+    "time_basis": "checks",
+    "n_notable": 4
+   },
+   "newton-1-v1": {
+    "n_students": 1,
+    "attempted_pct": 0.0,
+    "solved_pct": 0.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": null,
+    "time_basis": "checks",
+    "n_notable": 0
+   },
+   "optimization-1-v1": {
+    "n_students": 168,
+    "attempted_pct": 74.0,
+    "solved_pct": 96.4,
+    "first_check_pct": 14.3,
+    "avg_time_to_complete_s": 83.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "related-rates-1-v2": {
+    "n_students": 167,
+    "attempted_pct": 74.0,
+    "solved_pct": 98.8,
+    "first_check_pct": 17.4,
+    "avg_time_to_complete_s": 230.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "related-rates-2-v1": {
+    "n_students": 164,
+    "attempted_pct": 73.0,
+    "solved_pct": 98.8,
+    "first_check_pct": 11.6,
+    "avg_time_to_complete_s": 226.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "riemann-1-v1": {
+    "n_students": 153,
+    "attempted_pct": 68.0,
+    "solved_pct": 97.4,
+    "first_check_pct": 8.5,
+    "avg_time_to_complete_s": 227.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "substitution-2-v1": {
+    "n_students": 31,
+    "attempted_pct": 14.0,
+    "solved_pct": 93.5,
+    "first_check_pct": 3.2,
+    "avg_time_to_complete_s": 59.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "taylor-poly-1-v1": {
+    "n_students": 155,
+    "attempted_pct": 69.0,
+    "solved_pct": 98.1,
+    "first_check_pct": 6.5,
+    "avg_time_to_complete_s": 169.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   }
+  },
+  "Gordon_JSenning__F25": {
+   "antider-2-v1": {
+    "n_students": 1,
+    "attempted_pct": 5.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 100.0,
+    "avg_time_to_complete_s": 18.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "deriv-chainrule-4-v2": {
+    "n_students": 16,
+    "attempted_pct": 84.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 12.5,
+    "avg_time_to_complete_s": 107.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-implicit-2-v1": {
+    "n_students": 17,
+    "attempted_pct": 89.0,
+    "solved_pct": 94.1,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 142.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-inverse-1-v1": {
+    "n_students": 16,
+    "attempted_pct": 84.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 31.2,
+    "avg_time_to_complete_s": 29.0,
+    "time_basis": "checks",
+    "n_notable": 0
+   },
+   "deriv-prodquot-1-v1": {
+    "n_students": 15,
+    "attempted_pct": 79.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 20.0,
+    "avg_time_to_complete_s": 121.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "differentials-4-v1": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 36.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "graph-concav-1-v1": {
+    "n_students": 15,
+    "attempted_pct": 79.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 13.3,
+    "avg_time_to_complete_s": 259.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "graph-incdec-1-v1": {
+    "n_students": 15,
+    "attempted_pct": 79.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 53.3,
+    "avg_time_to_complete_s": 120.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "graph-sketch-1-v1": {
+    "n_students": 16,
+    "attempted_pct": 84.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 25.0,
+    "avg_time_to_complete_s": 549.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "graphical-numerical-1-v1": {
+    "n_students": 11,
+    "attempted_pct": 58.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 9.1,
+    "avg_time_to_complete_s": 650.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-analytic-3-v1": {
+    "n_students": 17,
+    "attempted_pct": 89.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 17.6,
+    "avg_time_to_complete_s": 87.0,
+    "time_basis": "checks",
+    "n_notable": 3
+   },
+   "limit-analytic-5-v1": {
+    "n_students": 17,
+    "attempted_pct": 89.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 41.2,
+    "avg_time_to_complete_s": 54.0,
+    "time_basis": "checks",
+    "n_notable": 1
+   },
+   "limit-continuity-4-v1": {
+    "n_students": 18,
+    "attempted_pct": 95.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 5.6,
+    "avg_time_to_complete_s": 149.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v1": {
+    "n_students": 17,
+    "attempted_pct": 89.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 141.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-intro-3-v1": {
+    "n_students": 19,
+    "attempted_pct": 100.0,
+    "solved_pct": 78.9,
+    "first_check_pct": 5.3,
+    "avg_time_to_complete_s": 704.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "optimization-1-v1": {
+    "n_students": 15,
+    "attempted_pct": 79.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 20.0,
+    "avg_time_to_complete_s": 145.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "related-rates-1-v2": {
+    "n_students": 5,
+    "attempted_pct": 26.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 20.0,
+    "avg_time_to_complete_s": 133.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "related-rates-2-v1": {
+    "n_students": 15,
+    "attempted_pct": 79.0,
+    "solved_pct": 93.3,
+    "first_check_pct": 26.7,
+    "avg_time_to_complete_s": 321.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "riemann-1-v1": {
+    "n_students": 13,
+    "attempted_pct": 68.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 7.7,
+    "avg_time_to_complete_s": 449.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "substitution-2-v1": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 52.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   }
+  },
+  "Moravian_MFraboni__S26": {
+   "antider-2-v1": {
+    "n_students": 10,
+    "attempted_pct": 36.0,
+    "solved_pct": 80.0,
+    "first_check_pct": 40.0,
+    "avg_time_to_complete_s": 47.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "concavity-2-v1": {
+    "n_students": 14,
+    "attempted_pct": 50.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 28.6,
+    "avg_time_to_complete_s": 20.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "deriv-chainrule-4-v2": {
+    "n_students": 13,
+    "attempted_pct": 46.0,
+    "solved_pct": 92.3,
+    "first_check_pct": 15.4,
+    "avg_time_to_complete_s": 131.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "deriv-implicit-2-v1": {
+    "n_students": 15,
+    "attempted_pct": 54.0,
+    "solved_pct": 93.3,
+    "first_check_pct": 26.7,
+    "avg_time_to_complete_s": 113.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "deriv-inverse-1-v1": {
+    "n_students": 19,
+    "attempted_pct": 68.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 10.5,
+    "avg_time_to_complete_s": 64.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "deriv-prodquot-1-v1": {
+    "n_students": 19,
+    "attempted_pct": 68.0,
+    "solved_pct": 94.7,
+    "first_check_pct": 15.8,
+    "avg_time_to_complete_s": 120.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "graph-concav-1-v1": {
+    "n_students": 14,
+    "attempted_pct": 50.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 21.4,
+    "avg_time_to_complete_s": 61.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "graph-incdec-1-v1": {
+    "n_students": 13,
+    "attempted_pct": 46.0,
+    "solved_pct": 92.3,
+    "first_check_pct": 23.1,
+    "avg_time_to_complete_s": 65.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "graph-sketch-1-v1": {
+    "n_students": 14,
+    "attempted_pct": 50.0,
+    "solved_pct": 92.9,
+    "first_check_pct": 14.3,
+    "avg_time_to_complete_s": 159.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-analytic-3-v1": {
+    "n_students": 20,
+    "attempted_pct": 71.0,
+    "solved_pct": 90.0,
+    "first_check_pct": 35.0,
+    "avg_time_to_complete_s": 108.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-analytic-5-v1": {
+    "n_students": 21,
+    "attempted_pct": 75.0,
+    "solved_pct": 95.2,
+    "first_check_pct": 9.5,
+    "avg_time_to_complete_s": 154.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-continuity-4-v1": {
+    "n_students": 20,
+    "attempted_pct": 71.0,
+    "solved_pct": 80.0,
+    "first_check_pct": 25.0,
+    "avg_time_to_complete_s": 224.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v2": {
+    "n_students": 21,
+    "attempted_pct": 75.0,
+    "solved_pct": 95.2,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 139.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-intro-3-v2": {
+    "n_students": 21,
+    "attempted_pct": 75.0,
+    "solved_pct": 71.4,
+    "first_check_pct": 4.8,
+    "avg_time_to_complete_s": 368.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "optimization-1-v1": {
+    "n_students": 14,
+    "attempted_pct": 50.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 14.3,
+    "avg_time_to_complete_s": 126.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "related-rates-1-v2": {
+    "n_students": 15,
+    "attempted_pct": 54.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 40.0,
+    "avg_time_to_complete_s": 76.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "related-rates-2-v1": {
+    "n_students": 15,
+    "attempted_pct": 54.0,
+    "solved_pct": 93.3,
+    "first_check_pct": 26.7,
+    "avg_time_to_complete_s": 135.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "riemann-1-v1": {
+    "n_students": 12,
+    "attempted_pct": 43.0,
+    "solved_pct": 91.7,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 98.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   }
+  },
+  "Nazareth_MKoetz__S26": {
+   "antider-2-v1": {
+    "n_students": 3,
+    "attempted_pct": 7.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 100.0,
+    "avg_time_to_complete_s": 43.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "deriv-prodquot-1-v1": {
+    "n_students": 1,
+    "attempted_pct": 2.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 65.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "graph-concav-1-v1": {
+    "n_students": 1,
+    "attempted_pct": 2.0,
+    "solved_pct": 0.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": null,
+    "time_basis": "checks",
+    "n_notable": 2
+   },
+   "graph-incdec-1-v1": {
+    "n_students": 1,
+    "attempted_pct": 2.0,
+    "solved_pct": 0.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": null,
+    "time_basis": "checks",
+    "n_notable": 0
+   },
+   "limit-intro-3-v2": {
+    "n_students": 5,
+    "attempted_pct": 12.0,
+    "solved_pct": 80.0,
+    "first_check_pct": 20.0,
+    "avg_time_to_complete_s": 439.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   }
+  },
+  "all": {
+   "antider-2-v1": {
+    "n_students": 174,
+    "attempted_pct": 55.0,
+    "solved_pct": 98.9,
+    "first_check_pct": 31.0,
+    "avg_time_to_complete_s": 105.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "concavity-2-v1": {
+    "n_students": 14,
+    "attempted_pct": 50.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 28.6,
+    "avg_time_to_complete_s": 20.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "deriv-chainrule-4-v2": {
+    "n_students": 188,
+    "attempted_pct": 69.0,
+    "solved_pct": 96.3,
+    "first_check_pct": 9.6,
+    "avg_time_to_complete_s": 295.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-implicit-2-v1": {
+    "n_students": 209,
+    "attempted_pct": 77.0,
+    "solved_pct": 94.7,
+    "first_check_pct": 8.6,
+    "avg_time_to_complete_s": 191.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "deriv-inverse-1-v1": {
+    "n_students": 190,
+    "attempted_pct": 70.0,
+    "solved_pct": 98.4,
+    "first_check_pct": 12.6,
+    "avg_time_to_complete_s": 67.0,
+    "time_basis": "checks",
+    "n_notable": 3
+   },
+   "deriv-prodquot-1-v1": {
+    "n_students": 201,
+    "attempted_pct": 64.0,
+    "solved_pct": 95.0,
+    "first_check_pct": 9.0,
+    "avg_time_to_complete_s": 186.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "differentials-4-v1": {
+    "n_students": 36,
+    "attempted_pct": 15.0,
+    "solved_pct": 94.4,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 65.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "disk-4-v1": {
+    "n_students": 3,
+    "attempted_pct": 17.0,
+    "solved_pct": 33.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 25.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "graph-concav-1-v1": {
+    "n_students": 197,
+    "attempted_pct": 63.0,
+    "solved_pct": 98.0,
+    "first_check_pct": 11.7,
+    "avg_time_to_complete_s": 171.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "graph-incdec-1-v1": {
+    "n_students": 201,
+    "attempted_pct": 64.0,
+    "solved_pct": 97.5,
+    "first_check_pct": 32.3,
+    "avg_time_to_complete_s": 155.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "graph-sketch-1-v1": {
+    "n_students": 194,
+    "attempted_pct": 71.0,
+    "solved_pct": 97.4,
+    "first_check_pct": 7.7,
+    "avg_time_to_complete_s": 335.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "graphical-numerical-1-v1": {
+    "n_students": 11,
+    "attempted_pct": 58.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 9.1,
+    "avg_time_to_complete_s": 650.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "improper-int-2-v1": {
+    "n_students": 26,
+    "attempted_pct": 58.0,
+    "solved_pct": 92.3,
+    "first_check_pct": 23.1,
+    "avg_time_to_complete_s": 137.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "int-by-parts-2-v1": {
+    "n_students": 26,
+    "attempted_pct": 58.0,
+    "solved_pct": 84.6,
+    "first_check_pct": 15.4,
+    "avg_time_to_complete_s": 94.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "int-comp-test-3-v1": {
+    "n_students": 7,
+    "attempted_pct": 16.0,
+    "solved_pct": 71.4,
+    "first_check_pct": 14.3,
+    "avg_time_to_complete_s": 55.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "int-comp-test2-v1": {
+    "n_students": 8,
+    "attempted_pct": 44.0,
+    "solved_pct": 62.5,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 62.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "limit-analytic-3-v1": {
+    "n_students": 232,
+    "attempted_pct": 85.0,
+    "solved_pct": 97.4,
+    "first_check_pct": 18.5,
+    "avg_time_to_complete_s": 164.0,
+    "time_basis": "checks",
+    "n_notable": 4
+   },
+   "limit-analytic-5-v1": {
+    "n_students": 230,
+    "attempted_pct": 84.0,
+    "solved_pct": 95.7,
+    "first_check_pct": 23.9,
+    "avg_time_to_complete_s": 123.0,
+    "time_basis": "checks",
+    "n_notable": 1
+   },
+   "limit-continuity-4-v1": {
+    "n_students": 217,
+    "attempted_pct": 79.0,
+    "solved_pct": 91.7,
+    "first_check_pct": 10.1,
+    "avg_time_to_complete_s": 232.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v1": {
+    "n_students": 199,
+    "attempted_pct": 81.0,
+    "solved_pct": 97.5,
+    "first_check_pct": 4.5,
+    "avg_time_to_complete_s": 296.0,
+    "time_basis": "checks",
+    "n_notable": 5
+   },
+   "limit-infinite-2-v2": {
+    "n_students": 47,
+    "attempted_pct": 19.0,
+    "solved_pct": 80.9,
+    "first_check_pct": 4.3,
+    "avg_time_to_complete_s": 145.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "limit-intro-3-v1": {
+    "n_students": 208,
+    "attempted_pct": 85.0,
+    "solved_pct": 85.6,
+    "first_check_pct": 20.7,
+    "avg_time_to_complete_s": 467.0,
+    "time_basis": "checks",
+    "n_notable": 2
+   },
+   "limit-intro-3-v2": {
+    "n_students": 141,
+    "attempted_pct": 48.0,
+    "solved_pct": 75.2,
+    "first_check_pct": 7.1,
+    "avg_time_to_complete_s": 381.0,
+    "time_basis": "checks",
+    "n_notable": 4
+   },
+   "newton-1-v1": {
+    "n_students": 1,
+    "attempted_pct": 0.0,
+    "solved_pct": 0.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": null,
+    "time_basis": "checks",
+    "n_notable": 0
+   },
+   "optimization-1-v1": {
+    "n_students": 197,
+    "attempted_pct": 72.0,
+    "solved_pct": 97.0,
+    "first_check_pct": 14.7,
+    "avg_time_to_complete_s": 91.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "part-frac-2-v1": {
+    "n_students": 22,
+    "attempted_pct": 49.0,
+    "solved_pct": 95.5,
+    "first_check_pct": 18.2,
+    "avg_time_to_complete_s": 85.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "ratio-root-1-v1": {
+    "n_students": 6,
+    "attempted_pct": 33.0,
+    "solved_pct": 83.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 63.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "ratio-root-2-v1": {
+    "n_students": 6,
+    "attempted_pct": 33.0,
+    "solved_pct": 83.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 30.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "related-rates-1-v2": {
+    "n_students": 187,
+    "attempted_pct": 68.0,
+    "solved_pct": 98.9,
+    "first_check_pct": 19.3,
+    "avg_time_to_complete_s": 215.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "related-rates-2-v1": {
+    "n_students": 194,
+    "attempted_pct": 71.0,
+    "solved_pct": 97.9,
+    "first_check_pct": 13.9,
+    "avg_time_to_complete_s": 226.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "riemann-1-v1": {
+    "n_students": 178,
+    "attempted_pct": 65.0,
+    "solved_pct": 97.2,
+    "first_check_pct": 7.9,
+    "avg_time_to_complete_s": 235.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "sequences-1-v1": {
+    "n_students": 26,
+    "attempted_pct": 58.0,
+    "solved_pct": 88.5,
+    "first_check_pct": 26.9,
+    "avg_time_to_complete_s": 50.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "series-3-v1": {
+    "n_students": 23,
+    "attempted_pct": 51.0,
+    "solved_pct": 82.6,
+    "first_check_pct": 26.1,
+    "avg_time_to_complete_s": 126.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "shell-2-v2": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 50.0,
+    "first_check_pct": 50.0,
+    "avg_time_to_complete_s": 31.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "shell-3-v1": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 50.0,
+    "first_check_pct": 50.0,
+    "avg_time_to_complete_s": 25.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "substitution-2-v1": {
+    "n_students": 35,
+    "attempted_pct": 13.0,
+    "solved_pct": 94.3,
+    "first_check_pct": 2.9,
+    "avg_time_to_complete_s": 62.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "taylor-poly-1-v1": {
+    "n_students": 162,
+    "attempted_pct": 66.0,
+    "solved_pct": 95.7,
+    "first_check_pct": 6.2,
+    "avg_time_to_complete_s": 170.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "trig-sub-1-v1": {
+    "n_students": 23,
+    "attempted_pct": 51.0,
+    "solved_pct": 87.0,
+    "first_check_pct": 8.7,
+    "avg_time_to_complete_s": 197.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "trig-sub-2-v1": {
+    "n_students": 22,
+    "attempted_pct": 49.0,
+    "solved_pct": 90.9,
+    "first_check_pct": 13.6,
+    "avg_time_to_complete_s": 200.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "trigint-2-v1": {
+    "n_students": 10,
+    "attempted_pct": 56.0,
+    "solved_pct": 90.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 576.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   }
+  },
+  "PalmBeach_AKatyal__S26": {
+   "disk-4-v1": {
+    "n_students": 3,
+    "attempted_pct": 17.0,
+    "solved_pct": 33.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 25.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "improper-int-2-v1": {
+    "n_students": 8,
+    "attempted_pct": 44.0,
+    "solved_pct": 87.5,
+    "first_check_pct": 12.5,
+    "avg_time_to_complete_s": 42.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "int-by-parts-2-v1": {
+    "n_students": 13,
+    "attempted_pct": 72.0,
+    "solved_pct": 69.2,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 125.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "int-comp-test-3-v1": {
+    "n_students": 6,
+    "attempted_pct": 33.0,
+    "solved_pct": 83.3,
+    "first_check_pct": 16.7,
+    "avg_time_to_complete_s": 55.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "int-comp-test2-v1": {
+    "n_students": 8,
+    "attempted_pct": 44.0,
+    "solved_pct": 62.5,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 62.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "part-frac-2-v1": {
+    "n_students": 10,
+    "attempted_pct": 56.0,
+    "solved_pct": 90.0,
+    "first_check_pct": 10.0,
+    "avg_time_to_complete_s": 62.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "ratio-root-1-v1": {
+    "n_students": 6,
+    "attempted_pct": 33.0,
+    "solved_pct": 83.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 63.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "ratio-root-2-v1": {
+    "n_students": 6,
+    "attempted_pct": 33.0,
+    "solved_pct": 83.3,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 30.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "sequences-1-v1": {
+    "n_students": 7,
+    "attempted_pct": 39.0,
+    "solved_pct": 85.7,
+    "first_check_pct": 14.3,
+    "avg_time_to_complete_s": 36.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "series-3-v1": {
+    "n_students": 8,
+    "attempted_pct": 44.0,
+    "solved_pct": 87.5,
+    "first_check_pct": 12.5,
+    "avg_time_to_complete_s": 99.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "shell-2-v2": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 50.0,
+    "first_check_pct": 50.0,
+    "avg_time_to_complete_s": 31.0,
+    "time_basis": "moves",
+    "n_notable": 0
+   },
+   "shell-3-v1": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 50.0,
+    "first_check_pct": 50.0,
+    "avg_time_to_complete_s": 25.0,
+    "time_basis": "moves",
+    "n_notable": 1
+   },
+   "substitution-2-v1": {
+    "n_students": 2,
+    "attempted_pct": 11.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 124.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "taylor-poly-1-v1": {
+    "n_students": 7,
+    "attempted_pct": 39.0,
+    "solved_pct": 42.9,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 235.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "trig-sub-1-v1": {
+    "n_students": 11,
+    "attempted_pct": 61.0,
+    "solved_pct": 72.7,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 200.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "trig-sub-2-v1": {
+    "n_students": 10,
+    "attempted_pct": 56.0,
+    "solved_pct": 90.0,
+    "first_check_pct": 20.0,
+    "avg_time_to_complete_s": 244.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "trigint-2-v1": {
+    "n_students": 10,
+    "attempted_pct": 56.0,
+    "solved_pct": 90.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": 576.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   }
+  },
+  "UMD_AWiggins__S26": {
+   "improper-int-2-v1": {
+    "n_students": 18,
+    "attempted_pct": 67.0,
+    "solved_pct": 94.4,
+    "first_check_pct": 27.8,
+    "avg_time_to_complete_s": 176.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "int-by-parts-2-v1": {
+    "n_students": 13,
+    "attempted_pct": 48.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 30.8,
+    "avg_time_to_complete_s": 73.0,
+    "time_basis": "moves",
+    "n_notable": 2
+   },
+   "int-comp-test-3-v1": {
+    "n_students": 1,
+    "attempted_pct": 4.0,
+    "solved_pct": 0.0,
+    "first_check_pct": 0.0,
+    "avg_time_to_complete_s": null,
+    "time_basis": "checks",
+    "n_notable": 0
+   },
+   "part-frac-2-v1": {
+    "n_students": 12,
+    "attempted_pct": 44.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 25.0,
+    "avg_time_to_complete_s": 101.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "sequences-1-v1": {
+    "n_students": 19,
+    "attempted_pct": 70.0,
+    "solved_pct": 89.5,
+    "first_check_pct": 31.6,
+    "avg_time_to_complete_s": 55.0,
+    "time_basis": "moves",
+    "n_notable": 4
+   },
+   "series-3-v1": {
+    "n_students": 15,
+    "attempted_pct": 56.0,
+    "solved_pct": 80.0,
+    "first_check_pct": 33.3,
+    "avg_time_to_complete_s": 142.0,
+    "time_basis": "moves",
+    "n_notable": 5
+   },
+   "trig-sub-1-v1": {
+    "n_students": 12,
+    "attempted_pct": 44.0,
+    "solved_pct": 100.0,
+    "first_check_pct": 16.7,
+    "avg_time_to_complete_s": 195.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   },
+   "trig-sub-2-v1": {
+    "n_students": 12,
+    "attempted_pct": 44.0,
+    "solved_pct": 91.7,
+    "first_check_pct": 8.3,
+    "avg_time_to_complete_s": 165.0,
+    "time_basis": "moves",
+    "n_notable": 3
+   }
+  }
+ }
 }

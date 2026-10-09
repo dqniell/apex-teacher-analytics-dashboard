@@ -1,52 +1,51 @@
 import { useState } from 'react'
-import { Card, ZoneText, RichText } from '../ui.jsx'
+import { Card, ZoneText, RichText, Toggle, fmtPct } from '../ui.jsx'
 
 // Top incorrect answers, each shown on the actual card-sort board so a teacher can
 // see exactly what went wrong: a card in the wrong spot, or a card left unplaced.
-// Blank boards are excluded. A toggle switches the ranking metric between distinct
-// students and total submissions (the latter matches all_configurations.xlsx).
-export default function TopIncorrect({ data }) {
-  const [metric, setMetric] = useState('students') // 'students' | 'submissions'
+// Blank boards are excluded. The ranking rule is spelled out on the page; with
+// `toggle` the reader can switch between ranking by students and by checks.
+const RULES = {
+  students:
+    'Ranked by how many students checked each wrong arrangement at least once. Ties go to the one checked more often, then to the one students reached earlier.',
+  checks:
+    'Ranked by how many times each wrong arrangement was checked, counting repeats by the same student. Ties go to the one more students checked.',
+}
+
+export default function TopIncorrect({ data, view, toggle = false }) {
+  const [metric, setMetric] = useState('students') // 'students' | 'checks'
 
   const correctMap = {} // card -> the zone it belongs in
   Object.entries(data.correct_state).forEach(([d, list]) =>
     list.forEach((c) => (correctMap[c] = `drop${d}`)),
   )
-
-  const list =
-    metric === 'submissions'
-      ? data.top_incorrect_by_submissions
-      : data.top_incorrect_by_students
+  const list = view.top_incorrect[metric]
+  const other = metric === 'checks' ? 'students' : 'checks'
 
   return (
     <Card className="p-6">
-      {/* toolbar: answer-key label + ranking-metric toggle */}
-      <div className="mb-3 flex items-center justify-between">
-        <p className="text-xs text-slate-500">
-          <span className="text-green-600">✓</span> Correct answer
+      {/* toolbar: ranking rule + optional ranking-metric toggle */}
+      <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <p className="max-w-xl text-xs text-slate-500">
+          {RULES[metric]} Correct and blank boards are left out.
         </p>
-        <div className="flex items-center gap-2 text-xs text-slate-400">
-          <span>Rank by</span>
-          <div className="flex gap-1 rounded-md bg-slate-100 p-0.5">
-            {[
+        {toggle && (
+          <Toggle
+            label="Rank by"
+            value={metric}
+            onChange={setMetric}
+            options={[
               ['Students', 'students'],
-              ['Submissions', 'submissions'],
-            ].map(([label, val]) => (
-              <button
-                key={val}
-                onClick={() => setMetric(val)}
-                className={`rounded px-2.5 py-1 transition ${
-                  metric === val ? 'bg-white text-slate-700' : 'hover:text-slate-600'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-        </div>
+              ['Checks', 'checks'],
+            ]}
+          />
+        )}
       </div>
 
       {/* answer key, for reference */}
+      <p className="mb-2 text-xs text-slate-500">
+        <span className="text-green-600">✓</span> Correct answer
+      </p>
       <Board state={data.correct_state} data={data} correctMap={correctMap} reference />
 
       {/* legend */}
@@ -57,20 +56,19 @@ export default function TopIncorrect({ data }) {
       </div>
 
       {/* the wrong arrangements */}
+      {list.length === 0 && <p className="text-sm text-slate-400">No incorrect checks.</p>}
       <div className="space-y-6">
         {list.map((combo, i) => (
           <div key={combo.config}>
-            <div className="mb-2 flex items-baseline gap-2 text-sm">
-              {/* <span className="w-4 text-right text-slate-400 tnum">{i + 1}</span> */}
-              <span className="font-semibold text-slate-800 tnum">
-                {metric === 'submissions' ? combo.submissions : combo.students}
-              </span>
-              <span className="text-slate-500">
-                {metric === 'submissions' ? 'submissions' : 'students'}
-              </span>
+            <div className="mb-2 flex flex-wrap items-baseline gap-2 text-sm">
+              <span className="w-5 text-slate-400 tnum">#{i + 1}</span>
+              <span className="font-semibold text-slate-800 tnum">{combo[metric]}</span>
+              <span className="text-slate-500">{metric}</span>
+              {metric === 'students' && (
+                <span className="text-slate-500 tnum">({fmtPct(combo.pct_students)} of students who attempted)</span>
+              )}
               <span className="text-xs text-slate-400 tnum">
-                · {metric === 'submissions' ? combo.students : combo.submissions}{' '}
-                {metric === 'submissions' ? 'students' : 'submissions'}
+                · {combo[other]} {other} · typically on check #{combo.median_check}
               </span>
             </div>
             <Board state={combo.state} data={data} correctMap={correctMap} />
@@ -90,8 +88,8 @@ function Board({ state, data, correctMap, reference }) {
 
   return (
     <div
-      className="grid gap-3"
-      style={{ gridTemplateColumns: `repeat(${zones.length}, minmax(0, 1fr))` }}
+      className="grid gap-3 overflow-x-auto"
+      style={{ gridTemplateColumns: `repeat(${zones.length}, minmax(7rem, 1fr))` }}
     >
       {zones.map((z) => {
         const num = z.replace('drop', '')

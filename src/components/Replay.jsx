@@ -1,17 +1,14 @@
 import React, { useState } from 'react'
-import { Card, CardTile, intensityStyle } from '../ui.jsx'
+import INDEX from '../index.json'
+import { Card, CardTile, RichText, Tip, Toggle, checkLabel, intensityStyle, zoneLabel } from '../ui.jsx'
 
-const BUCKETS = [
-  { key: 'all', label: 'All attempts' },
-  { key: '1', label: 'Attempt 1' },
-  { key: '2-3', label: 'Attempts 2–3' },
-  { key: '4+', label: 'Attempts 4+' },
-]
-
-// Section 2 — a screenshot-style replay of the card sort, with a heatmap overlay
-// that can be filtered by attempt number.
-export default function Replay({ data }) {
+// In-depth: a screenshot-style replay of the card sort, with a heatmap overlay that
+// can be filtered by check number, in simple (1 / 2–3 / 4+) or detailed groups.
+export default function Replay({ data, view }) {
+  const [grouping, setGrouping] = useState('simple') // 'simple' | 'detailed'
   const [bucket, setBucket] = useState('all')
+  const groups = [{ key: 'all', label: 'All checks' }, ...INDEX.check_groups[grouping]]
+  const key = groups.some((g) => g.key === bucket) ? bucket : 'all'
   const zones = data.zones
   const cards = data.cards
   const correctMap = {} // card -> zone
@@ -19,7 +16,7 @@ export default function Replay({ data }) {
     list.forEach((c) => (correctMap[c] = `drop${dropNum}`)),
   )
 
-  const view = data.heatmap[bucket]
+  const heat = view.heatmap[key]
 
   return (
     <Card className="p-6">
@@ -36,7 +33,7 @@ export default function Replay({ data }) {
         {zones.map((z) => (
           <div key={z} className="rounded-lg border border-dashed border-slate-300 bg-slate-50 p-3">
             <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              {data.zone_labels[z]}
+              <RichText text={data.zone_labels[z]} />
             </p>
             <div className="space-y-2">
               {(data.correct_state[z.replace('drop', '')] || []).map((c) => (
@@ -59,35 +56,42 @@ export default function Replay({ data }) {
         </div>
       </div>
 
-      {/* Heatmap overlay + attempt filter */}
-      <div className="mt-6 flex items-center justify-between">
+      {/* Heatmap overlay + check-number filter */}
+      <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm font-medium text-slate-500">
           Where each card actually landed{' '}
-          <span className="text-slate-400">({view.n_submissions.toLocaleString()} placements)</span>
+          <span className="text-slate-400">({heat.n_checks.toLocaleString()} checks)</span>
         </p>
-        <div className="flex gap-1 rounded-lg bg-slate-100 p-1">
-          {BUCKETS.map((b) => (
-            <button
-              key={b.key}
-              onClick={() => setBucket(b.key)}
-              className={`rounded-md px-3 py-1 text-xs font-medium transition ${
-                bucket === b.key
-                  ? 'bg-white text-slate-900 shadow-sm'
-                  : 'text-slate-500 hover:text-slate-700'
-              }`}
-            >
-              {b.label}
-            </button>
-          ))}
-        </div>
+        <Toggle
+          label="Groups"
+          value={grouping}
+          onChange={setGrouping}
+          options={[
+            ['Simple', 'simple'],
+            ['Detailed', 'detailed'],
+          ]}
+        />
+      </div>
+      <div className="mt-2 flex flex-wrap gap-1 rounded-lg bg-slate-100 p-1">
+        {groups.map((b) => (
+          <button
+            key={b.key}
+            onClick={() => setBucket(b.key)}
+            className={`rounded-md px-3 py-1 text-xs font-medium transition ${
+              key === b.key ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            {b.key === 'all' ? b.label : checkLabel(b.label)}
+          </button>
+        ))}
       </div>
 
-      <Heatmap data={data} view={view} zones={zones} cards={cards} correctMap={correctMap} />
+      <Heatmap data={data} view={heat} zones={zones} cards={cards} correctMap={correctMap} />
 
       <div className="mt-3 flex flex-wrap items-center gap-4 text-xs text-slate-400">
         <Legend swatch="bg-green-500" label="placed in the correct zone" />
-        <Legend swatch="bg-red-500" label="misplaced (darker = more students)" />
-        <span>Each row sums to 100% of the times that card was placed.</span>
+        <Legend swatch="bg-red-500" label="misplaced (darker = more often)" />
+        <span>Each row is out of the checks where that card was placed somewhere. Hover a cell for counts.</span>
       </div>
     </Card>
   )
@@ -102,7 +106,7 @@ function Heatmap({ data, view, zones, cards, correctMap }) {
             <th className="w-1/3 text-left text-xs font-medium text-slate-400">Card</th>
             {zones.map((z) => (
               <th key={z} className="px-2 text-center text-xs font-medium text-slate-400">
-                {data.zone_labels[z]}
+                <RichText text={data.zone_labels[z]} />
               </th>
             ))}
           </tr>
@@ -128,15 +132,25 @@ function Heatmap({ data, view, zones, cards, correctMap }) {
                   const kind = isCorrect ? 'value' : 'error'
                   return (
                     <td key={z} className="p-0">
-                      <div
-                        className={`flex h-11 flex-col items-center justify-center rounded-md tnum ${
-                          isCorrect ? 'ring-2 ring-green-500' : ''
-                        }`}
-                        style={intensityStyle(frac, kind)}
-                        title={`${n} placements`}
+                      <Tip
+                        className="w-full"
+                        tip={
+                          <>
+                            {total ? Math.round(frac * 100) : 0}% of checks that included card {c}{' '}
+                            put it in <RichText text={zoneLabel(data, z)} /> ({n} of {total} checks,{' '}
+                            {view.students_grid[c][z]} students).
+                          </>
+                        }
                       >
-                        <span className="text-sm font-semibold">{total ? Math.round((frac * 100)) : 0}%</span>
-                      </div>
+                        <div
+                          className={`flex h-11 w-full flex-col items-center justify-center rounded-md tnum ${
+                            isCorrect ? 'ring-2 ring-green-500' : ''
+                          }`}
+                          style={intensityStyle(frac, kind)}
+                        >
+                          <span className="text-sm font-semibold">{total ? Math.round(frac * 100) : 0}%</span>
+                        </div>
+                      </Tip>
                     </td>
                   )
                 })}

@@ -14,11 +14,67 @@ export function Card({ children, className = '' }) {
   )
 }
 
-export function SectionHeader({ title, subtitle }) {
+export function SectionHeader({ title, subtitle, right }) {
   return (
-    <div className="mb-4">
-      <h2 className="text-base font-semibold text-slate-900">{title}</h2>
-      {subtitle && <p className="mt-0.5 text-sm text-slate-500">{subtitle}</p>}
+    <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h2 className="text-base font-semibold text-slate-900">{title}</h2>
+        {subtitle && <p className="mt-0.5 text-sm text-slate-500">{subtitle}</p>}
+      </div>
+      {right}
+    </div>
+  )
+}
+
+// Hover / keyboard-focus tooltip. `tip` may be any node (rich text included).
+export function Tip({ tip, children, align = 'center', className = '' }) {
+  const pos = {
+    center: 'left-1/2 -translate-x-1/2',
+    left: 'left-0',
+    right: 'right-0',
+  }[align]
+  return (
+    <span tabIndex={0} className={`group relative inline-flex cursor-help outline-none ${className}`}>
+      {children}
+      <span
+        role="tooltip"
+        className={`pointer-events-none invisible absolute bottom-full z-30 mb-2 w-72 max-w-[80vw] ${pos} rounded-md bg-slate-900 px-3 py-2 text-left text-xs font-normal normal-case leading-snug tracking-normal text-white opacity-0 shadow-lg transition group-hover:visible group-hover:opacity-100 group-focus:visible group-focus:opacity-100`}
+      >
+        {tip}
+      </span>
+    </span>
+  )
+}
+
+// Small ⓘ marker that carries a definition tooltip.
+export function Info({ tip, align }) {
+  return (
+    <Tip tip={tip} align={align} className="ml-1 align-middle">
+      <span className="text-[11px] text-slate-400 hover:text-slate-600" aria-label="Definition">
+        ⓘ
+      </span>
+    </Tip>
+  )
+}
+
+// Segmented control: options = [[label, value], ...]
+export function Toggle({ label, options, value, onChange }) {
+  return (
+    <div className="flex items-center gap-2 text-xs text-slate-400">
+      {label && <span>{label}</span>}
+      <div className="flex gap-1 rounded-md bg-slate-100 p-0.5">
+        {options.map(([text, val]) => (
+          <button
+            key={val}
+            onClick={() => onChange(val)}
+            className={`rounded px-2.5 py-1 transition ${
+              value === val ? 'bg-white text-slate-700 shadow-sm' : 'hover:text-slate-600'
+            }`}
+          >
+            {text}
+          </button>
+        ))}
+      </div>
     </div>
   )
 }
@@ -42,6 +98,12 @@ export function RichText({ text, className = '' }) {
 
 // Back-compat alias — zones are rich strings too.
 export const ZoneText = ({ label, className }) => <RichText text={label} className={className} />
+
+// Zone id -> its label; the pseudo-zone "tray" means the card was left out.
+export function zoneLabel(data, z) {
+  if (!z || z === 'tray') return 'left out (the tray)'
+  return data.zone_labels[z] ?? z
+}
 
 // A single draggable "card" rendered with its (rich) label.
 export function CardTile({ id, label, tone = 'neutral', compact = false }) {
@@ -80,10 +142,25 @@ export function pct(n, d) {
   return Math.round((1000 * n) / d) / 10
 }
 
+// 12.0 -> "12%", 7.14 -> "7.1%", null -> "—"
+export function fmtPct(v) {
+  if (v == null) return '—'
+  return `${Number.isInteger(v) ? v : v.toFixed(1).replace(/\.0$/, '')}%`
+}
+
 // seconds -> "6m 12s" (or "—" when unknown)
 export function fmtTime(s) {
-  if (!s || s <= 0) return '—'
+  if (s == null || s < 0) return '—'
   const m = Math.floor(s / 60)
   const sec = Math.round(s % 60)
   return m ? `${m}m ${sec}s` : `${sec}s`
+}
+
+export const CHECK_DEF =
+  'A check is one press of the “Check Me” button. Moving cards around is not a check.'
+
+// Check-group label from the builder ("1", "2–3", "11+") -> "1st check", "Checks 2–3"
+export function checkLabel(label) {
+  if (label === '1') return '1st check'
+  return /^\d+$/.test(label) ? `Check ${label}` : `Checks ${label}`
 }
